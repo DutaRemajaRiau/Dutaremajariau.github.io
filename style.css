@@ -97,12 +97,12 @@ label {
 
 @keyframes transitionIn {
   from {
-    opacity: 1;
+    opacity: 0;
     -webkit-transform: rotateX(-10deg);
   }
 
   to {
-    opacity: 0;
+    opacity: 1;
     -webkit-transform: rotateX(0);
   }
 }
