@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style.css" />
 
     <!-- Icon -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css" />
 
     <title>Pendaftaran</title>
   </head>
@@ -18,97 +18,101 @@
   <body>
     <!-- Nav -->
     <nav>
-      <div class="my-navbar col-md-12 container mt-4 d-flex justify-content-between">
-          <a href="index.html"><img src="assets/logo/dutaremaja-img.png" alt="" width="105" height="99" class="d-inline-block align-text-top" /></a>
-          <img src="assets/logo/riau.png" alt="" width="80" height="95" class="d-inline-block align-text-top" />
-        </a>
+      <div class="my-navbar container pt-2 pb-2">
+        <div class="col-md-12 img-col d-flex justify-content-between">
+          <img src="assets/logo/riau1.png" class="d-inline-block align-text-top riau" style="width: 100px" />
+          <a href="index.html"><img src="assets/logo/dutaremaja.png" class="d-inline-block align-text-top dutaremaja" style="width: 100px" /></a>
+        </div>
       </div>
     </nav>
     <!-- END Nav -->
 
-     <!-- Form -->
-      <section id="my-form" class="container mt-4">
-        <h1 class="text-center fw-bold">Formulir Pendaftaran Duta Remaja Riau</h1>
-        <form>
-          <div class="mb-3">
-            <label>Nama Lengkap</label>
-            <input class="form-control" type="text" placeholder="Nama Lengkap" name="namaLengkap" required>
-          </div>
-          <div class="mb-3">
-            <label>Tempat Lahir</label>
-            <input class="form-control" type="text" placeholder="Tempat Lahir" name="tempatLahir" required>
-          </div>
-          <div class="mb-3">
-            <label>Tanggal Lahir</label>
-            <input class="form-control" type="date" placeholder="Tanggal Lahir" name="tanggalLahir" required>
-          </div>
-          <div class="mb-3">
-            <label>Usia</label>
-            <input class="form-control" type="number" placeholder="Usia" name="tanggalLahir" aria-valuemax="80" required>
-          </div>
-          <div class="mb-3">
-            <label>Asal Sekolah / Universitas</label>
-            <input class="form-control" type="text" placeholder="Asal Sekolah / Universitas" name="asalSekolah" required>
-          </div>
-          <div class="mb-3">
-            <label>Nomor Whatsapp</label>
-            <input class="form-control" type="text" placeholder="Nomor Whatsapp" name="noWa" required>
-          </div>
-          <div class="mb-3">
-            <label>Agama</label>
-            <select name="agama" class="form-control" required>
-              <option value="1" selected>Silahkan Pilih Agama</option>
-              <option value="muslim">Muslim</option>
-              <option value="kristen">Kristen</option>
-              <option value="katolik">Katolik</option>
-              <option value="hindu">Hindu</option>
-              <option value="buddha">Buddha</option>
-              <option value="konghucu">Konghucu</option>
-            </select>
-          </div>
-          <div class="mb-3">
-            <label>Jenis Kelamin</label>
-            <select name="jenisKelamin" class="form-control">
-              <option value="1" selected>Silahkan Pilih Jenis Kelamin</option>
-              <option value="lakilaki">Laki-Laki</option>
-              <option value="perempuan">Perempuan</option>
-            </select>
-          </div>
-          <div class="mb-3">
-            <label>Alasan Mengikuti Duta Remaja Riau</label>
-            <textarea class="form-control" placeholder="Alasan Mengikuti Duta Remaja Riau" name="alasan"></textarea>
-          </div>
-          <div class="mb-3">
-            <label>Bukti Pendaftaran</label>
-            <input class="form-control" type="file" name="buktiPendaftaran" placeholder="Upload Bukti Pendaftaran" required>
-          </div>
-          
-          <button type="submit" class="btn btn-primary" name="submit">Submit</button>
-        </form>
-      </section>
+    <!-- Form -->
+    <section id="my-form" class="container mt-4">
+      <h1 class="text-center fw-bold">Formulir Pendaftaran Duta Remaja Riau</h1>
+      <form>
+        <div class="mb-3">
+          <label>Nama Lengkap</label>
+          <input class="form-control" type="text" placeholder="Nama Lengkap" name="namaLengkap" required />
+        </div>
+        <div class="mb-3">
+          <label>Tempat Lahir</label>
+          <input class="form-control" type="text" placeholder="Tempat Lahir" name="tempatLahir" required />
+        </div>
+        <div class="mb-3">
+          <label>Tanggal Lahir</label>
+          <input class="form-control" type="date" placeholder="Tanggal Lahir" name="tanggalLahir" required />
+        </div>
+        <div class="mb-3">
+          <label>Usia</label>
+          <input class="form-control" type="number" placeholder="Usia" name="tanggalLahir" aria-valuemax="80" required />
+        </div>
+        <div class="mb-3">
+          <label>Asal Sekolah / Universitas</label>
+          <input class="form-control" type="text" placeholder="Asal Sekolah / Universitas" name="asalSekolah" required />
+        </div>
+        <div class="mb-3">
+          <label>Nomor Whatsapp</label>
+          <input class="form-control" type="text" placeholder="Nomor Whatsapp" name="noWa" required />
+        </div>
+        <div class="mb-3">
+          <label>Agama</label>
+          <select name="agama" class="form-control" required>
+            <option value="1" selected>Silahkan Pilih Agama</option>
+            <option value="muslim">Muslim</option>
+            <option value="kristen">Kristen</option>
+            <option value="katolik">Katolik</option>
+            <option value="hindu">Hindu</option>
+            <option value="buddha">Buddha</option>
+            <option value="konghucu">Konghucu</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <label>Jenis Kelamin</label>
+          <select name="jenisKelamin" class="form-control">
+            <option value="1" selected>Silahkan Pilih Jenis Kelamin</option>
+            <option value="lakilaki">Laki-Laki</option>
+            <option value="perempuan">Perempuan</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <label>Alasan Mengikuti Duta Remaja Riau</label>
+          <textarea class="form-control" placeholder="Alasan Mengikuti Duta Remaja Riau" name="alasan"></textarea>
+        </div>
+        <div class="mb-3">
+          <label>Bukti Pendaftaran</label>
+          <input class="form-control" type="file" name="buktiPendaftaran" placeholder="Upload Bukti Pendaftaran" required />
+        </div>
+
+        <button type="submit" class="btn btn-primary" name="submit">Submit</button>
+      </form>
+    </section>
     <!-- END Form -->
 
     <!-- Footer -->
-  <svg style="margin-top: 40px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffff" fill-opacity="1" d="M0,64L40,101.3C80,139,160,213,240,218.7C320,224,400,160,480,112C560,64,640,32,720,48C800,64,880,128,960,160C1040,192,1120,192,1200,170.7C1280,149,1360,107,1400,85.3L1440,64L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
-  <footer>
-    <div class="footer-column" style="background-color: white;">
-      <div class="footer-col text-center">
-        <h1 class="fw-bold">GET IN TOUCH</h1>
-        <div class="my-icon">
-          <a href="#"><i class="bi bi-facebook fs-2 text-dark"></i></a>
-          <a href="#"><i class="bi bi-whatsapp fs-2 text-dark"></i></a>
-          <a href="https://www.instagram.com/dutaremajariau/" target="_blank"><i class="bi bi-instagram fs-2 text-dark"></i></a>
-          <a href="www.youtube.com/channel/UC1K1PJfbYQjqlGumAwlnIQQ" target="_blank"><i class="bi bi-youtube fs-2 text-dark"></i></a>
-        </div>
-        <div class="copyright pt-4">
-          Copyright© 2021 Duta Remaja Riau
+    <svg style="margin-top: 40px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#ffff"
+        fill-opacity="1"
+        d="M0,64L40,101.3C80,139,160,213,240,218.7C320,224,400,160,480,112C560,64,640,32,720,48C800,64,880,128,960,160C1040,192,1120,192,1200,170.7C1280,149,1360,107,1400,85.3L1440,64L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+      ></path>
+    </svg>
+    <footer>
+      <div class="footer-column" style="background-color: white">
+        <div class="footer-col text-center">
+          <h1 class="fw-bold">GET IN TOUCH</h1>
+          <div class="my-icon">
+            <a href="#"><i class="bi bi-facebook fs-2 text-dark"></i></a>
+            <a href="#"><i class="bi bi-whatsapp fs-2 text-dark"></i></a>
+            <a href="https://www.instagram.com/dutaremajariau/" target="_blank"><i class="bi bi-instagram fs-2 text-dark"></i></a>
+            <a href="www.youtube.com/channel/UC1K1PJfbYQjqlGumAwlnIQQ" target="_blank"><i class="bi bi-youtube fs-2 text-dark"></i></a>
+          </div>
+          <div class="copyright pt-4">Copyright© 2021 Duta Remaja Riau</div>
         </div>
       </div>
-    </div>
-  </footer>
-<!-- END Footer -->
+    </footer>
+    <!-- END Footer -->
 
-    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
 </html>

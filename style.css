@@ -2,10 +2,7 @@
 
 body {
   font-family: Poppins, sans-serif;
-  background-color: #e8f3ff;
-  background-image: url(assets/background/linebgoverlay.png);
-  background-size: 95%;
-  background-repeat: repeat;
+  background-color: #bcd4be;
 }
 
 li {
@@ -83,6 +80,10 @@ label {
   border-bottom: 2px solid black;
   padding-bottom: 10px;
 }
+
+/* .btn {
+  background-color: #415123;
+} */
 
 /* Responsive */
 @media (min-width: 1024px) {
