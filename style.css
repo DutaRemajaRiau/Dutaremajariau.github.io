@@ -89,13 +89,22 @@ label {
   width: 100px;
 }
 
-.transition-fade {
-  opacity: 1;
-  transition: 1s;
+#content,
+#my-id,
+#my-conditions {
+  -webkit-animation: transitionIn 0.5s;
 }
 
-html.is-animating .transition-fade {
-  opacity: 0;
+@keyframes transitionIn {
+  from {
+    opacity: 1;
+    -webkit-transform: rotateX(-10deg);
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: rotateX(0);
+  }
 }
 
 /* Responsive */
