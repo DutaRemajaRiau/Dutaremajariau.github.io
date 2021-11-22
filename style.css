@@ -81,9 +81,13 @@ label {
   padding-bottom: 10px;
 }
 
-/* .btn {
-  background-color: #415123;
-} */
+.riau {
+  width: 100px;
+}
+
+.dutaremaja {
+  width: 100px;
+}
 
 /* Responsive */
 @media (min-width: 1024px) {
@@ -105,5 +109,13 @@ label {
 @media (max-width: 425px) {
   .liner {
     max-width: 220px;
+  }
+
+  .riau {
+    width: 80px;
+  }
+
+  .dutaremaja {
+    width: 80px;
   }
 }
