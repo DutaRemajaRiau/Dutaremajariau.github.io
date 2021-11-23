@@ -29,17 +29,39 @@
     <!-- END Nav -->
 
     <!-- Slider -->
-    <div id="slider" class="container" style="margin-top: 40px">
-      <figure>
-        <img src="assets/slider/1.jpg" alt="" />
-        <img src="assets/slider/2.jpg" alt="" />
-        <img src="assets/slider/3.jpg" alt="" />
-        <img src="assets/slider/duta1.jpg" alt="" />
-        <img src="assets/slider/duta2.jpg" alt="" />
-        <img src="assets/slider/duta3.jpg" alt="" />
-        <img src="assets/slider/duta4.jpg" alt="" />
-        <img src="assets/slider/1.jpg" alt="" />
-      </figure>
+    <div id="carouselExampleInterval" class="container carousel slide col-lg-7" data-bs-ride="carousel" style="margin-top: 40px">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      </div>
+      <div class="carousel-inner rounded">
+        <div class="carousel-item active" data-bs-interval="5000">
+          <img src="assets/slider/duta.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="assets/slider/duta2.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="assets/slider/duta3.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="assets/slider/duta4.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="assets/slider/duta5.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
     <!-- END Slider -->
 
