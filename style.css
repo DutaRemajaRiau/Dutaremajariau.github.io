@@ -92,7 +92,7 @@ label {
 #content,
 #my-id,
 #my-conditions {
-  -webkit-animation: transitionIn 0.5s;
+  -webkit-animation: transitionIn 1s;
 }
 
 @keyframes transitionIn {
